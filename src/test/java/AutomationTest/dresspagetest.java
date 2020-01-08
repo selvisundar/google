@@ -10,7 +10,7 @@ import Automation.homepage;
 import Automation.homepageobject;
 
 public class dresspagetest {
-	homepage hp;
+	mmhomepage hp;
     dresspageobject dpo;
     homepageobject hpo;
     
