@@ -8,7 +8,7 @@ import Automation.homepage;
 import junit.framework.Assert;
 
 public class addcardtest {
-	addcardobj ac;
+	mmaddcardobj ac;
 	addcardobj1 ac1;
 	homepage hp;
 	
