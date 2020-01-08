@@ -1,5 +1,7 @@
 package AutomationTest;
 
+import java.sql.Driver;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -23,7 +25,7 @@ public void verify()
 {
 	mo.email();
 	mo.clickbtn();
-	Assert.assertTrue(mso.getverify().getText().contains("Newsletter : You have successfully subscribed to this newsletter."));
+	Assert.assertTrue(mso.getverify().getText().contains(" Newsletter : You have successfully subscribed to this newsletter."));
 }
 
 }

@@ -33,13 +33,13 @@ hpo.clicktshirt();
 Assert.assertTrue(hpo.getTitlte().contains("T-shirt"));
 }
 
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+

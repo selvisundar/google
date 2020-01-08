@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class mailobject extends homepage {
-	@FindBy(xpath="//input[@id='newsletter-input']")
+	@FindBy(xpath="//input[@name='email']")
 	private WebElement email;
 	
 	@FindBy(xpath="//button[@name='submitNewsletter']")
@@ -15,7 +15,7 @@ public mailobject(){
 		PageFactory.initElements(driver, this);
 	}
 	    public WebElement getemail(){
-	    	email.sendKeys("selvisundar25@gmail.com");
+	    	email.sendKeys("deephi26@gmail.com");
 	    	return email;
 	    }
 

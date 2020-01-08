@@ -1,22 +1,19 @@
-package Automation;
+package AutomationTest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class dataprovider {
+public class DataProvider {
 	public WebDriver driver;
 	@BeforeMethod
 	public void launch(){
 		System.setProperty("Webdriver.Chrome.driver", "E:\\Chrome 79\\Chromedriver.exe");
 		driver=new ChromeDriver();
-		driver.get("https://opensource-demo.orangehrmlive.com/");
-	}
-
-	@DataProvider(name="verifylogin")
+		driver.get("https://adactin.com/HotelApp/");}
+		@org.testng.annotations.DataProvider(name="verifylogin")
 	public Object[][]getdata(){
 		Object[][] data=new Object[3][2];
 		data[0][0]="Admin";
@@ -37,3 +34,6 @@ public class dataprovider {
 	}
 
 }
+
+
+
