@@ -7,8 +7,13 @@ import Automation.addcardobj1;
 import Automation.homepage;
 import junit.framework.Assert;
 
-public class addcardtest11 {
+<<<<<<< HEAD
+public class addcardtest12 {
 	mmaddcardobj ac;
+=======
+public class addcardtest {
+	mmmmaddcardobj ac;
+>>>>>>> 58edadfdae11828c51082ed2caaf0c800b2a5c19
 	addcardobj1 ac1;
 	homepage hp;
 	
