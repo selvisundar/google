@@ -7,7 +7,7 @@ import Automation.addcardobj1;
 import Automation.homepage;
 import junit.framework.Assert;
 
-public class addcardtest {
+public class addcardtest11 {
 	mmaddcardobj ac;
 	addcardobj1 ac1;
 	homepage hp;
